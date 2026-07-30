@@ -1,7 +1,5 @@
 # <p align="center">Why Customers Churn: A Visual Analysis<p>
 
-# Why Customers Churn: A Visual Analysis
-
 ## Project Overview
 
 This project is a comprehensive data analysis of customer churn in the telecommunications industry. The primary objective was to understand the key factors that influence a customer's decision to leave a service provider. By analyzing the Telco Customer Churn Dataset, this project uncovers hidden patterns in customer behavior, tenure, monthly charges, and demographic attributes.
@@ -152,3 +150,5 @@ MBA (Business Analytics)
 
 [GitHub](https://github.com/dee8864)
 
+---
+![DASHBOARD PREVIEW](https://github.com/dee8864/Why-Customers-Churn-A-Visual-Analysis/blob/main/%23VISUALS%20Why%20Customers%20Churn%20A%20Visual%20Analysis.png)
