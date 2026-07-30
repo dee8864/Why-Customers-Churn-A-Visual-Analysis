@@ -8,6 +8,7 @@ This project is a comprehensive data analysis of customer churn in the telecommu
 
 The analysis follows a complete data analytics workflow: importing raw data, performing extensive data cleaning, conducting exploratory data analysis (EDA), creating both static and interactive visualizations, and finally deriving actionable business insights. This project serves as a practical demonstration of how Python can be used to turn messy, real-world data into clear, decision-driving narratives.
 
+---
 ## Dataset Used
 
 The dataset used is the IBM Telco Customer Churn dataset, a widely used benchmark for customer analytics. It contains information on 7,043 customers, including their demographic details, account information, services they subscribed to, and whether they churned.
@@ -19,6 +20,7 @@ Key features in the dataset:
 - Financial data (monthly charges, total charges)
 - Target variable (Churn: Yes or No)
 
+---
 ## Tools and Libraries Used
 
 This project was built entirely in Python using the following libraries:
@@ -30,6 +32,7 @@ This project was built entirely in Python using the following libraries:
 - **Plotly Express (px)**: For generating quick, interactive charts that allow for dynamic exploration.
 - **Plotly Graph Objects (go)**: For building highly customized interactive visualizations such as donut charts.
 
+---
 ## Project Workflow
 
 The project was executed in a structured, step-by-step manner.
@@ -76,6 +79,7 @@ Customers were segmented into three tenure groups. The goal was to study the rel
 - **Statistical Comparisons**: Average monthly charges and churn rates were computed for each tenure segment.
 - **Demographic Analysis**: Churn rates were compared across gender, senior citizen status, payment method, and contract type. This helped in identifying which customer profiles are most vulnerable to churning.
 
+---
 ## Key Business Insights
 
 The analysis uncovered several critical insights that can guide retention strategies.
@@ -87,6 +91,7 @@ The analysis uncovered several critical insights that can guide retention strate
 - **Payment Method**: Electronic check payments are associated with higher churn, whereas automatic bank transfers and credit card payments show lower churn rates. This could indicate a correlation with financial stability or convenience.
 - **Service Subscriptions**: Customers lacking premium services like online security or tech support tend to churn more, suggesting that bundling added value helps retain users.
 
+---
 ## Challenges and Learnings
 
 This project provided a valuable hands-on learning experience, complete with real-world hurdles.
@@ -96,6 +101,7 @@ This project provided a valuable hands-on learning experience, complete with rea
 - **Interactive vs. Static**: The project emphasized that static charts are excellent for reports and PDFs, while interactive charts are indispensable for exploratory analysis and stakeholder presentations.
 - **Precision in Aggregation**: Grouping data correctly required careful attention. The `pd.cut` function and `groupby` operations were honed, reinforcing the importance of pre-aggregation before creating segmented charts.
 
+---
 ## How to Run This Project
 
 To replicate this analysis on your local machine, follow these steps:
@@ -104,4 +110,45 @@ To replicate this analysis on your local machine, follow these steps:
    Ensure the dataset `Telco_Customer_Churn_Dataset (3).csv` is in the same directory as your Python script or Jupyter Notebook.
 
 2. **Install the required libraries**:
-   It is recommended to create a virtual environment. Install the necessary packages using pip:
+   It is recommended to create a virtual environment. Install the necessary packages using pip: pip install pandas numpy matplotlib seaborn plotly jupyter
+
+3. **Run the Jupyter Notebook**:
+Open the notebook file (e.g., `Churn_Analysis.ipynb`) and execute the cells sequentially. The code is well-commented to guide you through each step.
+
+4. **View the Interactive Charts**:
+When using Plotly, interactive charts will render directly in the Jupyter Notebook. For standalone HTML export, you can use `fig.write_html("filename.html")`.
+
+---
+## Results and Conclusion
+
+This project successfully demonstrated that customer churn is not random. It is heavily influenced by factors such as tenure, pricing, contract type, and payment preferences. The visual analysis clearly paints a picture of risk: new customers paying high monthly fees on month-to-month contracts are the most likely to leave.
+
+The insights derived from this project provide a solid foundation for developing targeted retention strategies. For example, the telecom company could:
+- Focus onboarding efforts on the first year to reduce early churn.
+- Incentivize customers to move from month-to-month contracts to longer terms.
+- Offer bundled services (like tech support) to high-risk segments to increase perceived value.
+
+---
+## Future Scope
+
+While this project focused on descriptive analytics, there are several avenues for expansion.
+
+- **Predictive Modeling**: Building a machine learning model (logistic regression, random forest) to predict churn probabilities and assign risk scores to individual customers.
+- **Interactive Dashboard**: Deploying the visualizations into a web dashboard using Plotly Dash or Streamlit to allow stakeholders to interact with the data in real-time.
+- **Deep Dive into Services**: Analyzing the specific impact of each service (e.g., Fiber Optic vs. DSL) on churn in conjunction with pricing tiers.
+- **Financial Impact Analysis**: Quantifying the monetary loss from churn and calculating the ROI of potential retention programs.
+
+---
+## Author
+
+This project was completed as a part of a practical data analytics learning journey. It represents a foundational step in applying Python to solve real business problems and translating raw data into meaningful visual stories.   
+
+
+**Deepanshu Sharma**
+
+MBA (Business Analytics)
+
+[LinkedIn](https://www.linkedin.com/in/deepanshu-sharma-8864ds/)
+
+[GitHub](https://github.com/dee8864)
+
